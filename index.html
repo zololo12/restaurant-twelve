@@ -63,8 +63,8 @@ html,body{font-family:'Montserrat',sans-serif;background:#0B1F3B;color:#F7F5F0;}
 .dish-name{font-family:'Cormorant Garamond',serif;font-size:29px;font-weight:600;color:#0B1F3B;margin-bottom:10px;}
 .dish-desc{font-size:15px;font-weight:300;line-height:2;color:rgba(11,31,59,0.6);}
 
-.home-footer{padding:40px 48px;border-top:0.5px solid rgba(11,31,59,0.1);background:#F7F5F0;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;}
-.home-footer-links{display:flex;gap:28px;flex-wrap:wrap;}
+.home-footer{padding:40px 48px;border-top:0.5px solid rgba(11,31,59,0.1);background:#F7F5F0;display:flex;flex-direction:column;align-items:center;gap:16px;text-align:center;}
+.home-footer-links{display:flex;gap:28px;flex-wrap:wrap;justify-content:center;}
 .hfl{font-size:11px;color:rgba(11,31,59,0.4);text-decoration:none;letter-spacing:1px;}
 .hfl:hover{color:#C8A24A;}
 .home-footer-copy{font-size:15px;letter-spacing:1px;color:#0B1F3B;}
@@ -228,6 +228,11 @@ html,body{font-family:'Montserrat',sans-serif;background:#0B1F3B;color:#F7F5F0;}
   .cbtn{padding:20px 18px;}
   .form-grid{grid-template-columns:1fr;}
   .fg-full{grid-column:1;}
+  .menu-row{flex-direction:column;align-items:flex-start;gap:4px;}
+  .mr-val{text-align:left;}
+  .sp-3 .nature-grid{grid-template-rows:auto;}
+  .sp-3 .nature-cell-text{overflow:visible;}
+  .sp-3 .story-content{height:auto;min-height:100vh;overflow-y:auto;}
 }
 </style>
 </head>
