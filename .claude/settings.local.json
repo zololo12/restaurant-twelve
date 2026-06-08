@@ -5,7 +5,11 @@
       "mcp__claude_ai_Supabase__list_projects",
       "mcp__claude_ai_Supabase__deploy_edge_function",
       "mcp__claude_ai_Supabase__execute_sql",
-      "PowerShell(Copy-Item \"c:\\\\Users\\\\Jerry Tan\\\\Downloads\\\\Restaurant Twelve\\\\Web\\\\RestaurantTwelve_Website \\(1\\).html\" \"c:\\\\Users\\\\Jerry Tan\\\\Downloads\\\\Restaurant Twelve\\\\Web\\\\index.html\" -Force)"
+      "PowerShell(Copy-Item \"c:\\\\Users\\\\Jerry Tan\\\\Downloads\\\\Restaurant Twelve\\\\Web\\\\RestaurantTwelve_Website \\(1\\).html\" \"c:\\\\Users\\\\Jerry Tan\\\\Downloads\\\\Restaurant Twelve\\\\Web\\\\index.html\" -Force)",
+      "PowerShell(Get-Command gs -ErrorAction SilentlyContinue)",
+      "PowerShell(Get-Command convert -ErrorAction SilentlyContinue)",
+      "PowerShell(Get-Command pdftoppm -ErrorAction SilentlyContinue)",
+      "PowerShell(Get-Command mutool -ErrorAction SilentlyContinue)"
     ]
   }
 }
