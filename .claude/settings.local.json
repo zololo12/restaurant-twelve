@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "PowerShell($bytes = [System.IO.File]::ReadAllBytes\\(\"C:\\\\Users\\\\Jerry Tan\\\\Downloads\\\\Restaurant Twelve\\\\Twelve logo design\\\\TWELVE_black_transparent.png\"\\); $b64 = [Convert]::ToBase64String\\($bytes\\); Write-Output \"data:image/png;base64,$b64\")"
+      "PowerShell($bytes = [System.IO.File]::ReadAllBytes\\(\"C:\\\\Users\\\\Jerry Tan\\\\Downloads\\\\Restaurant Twelve\\\\Twelve logo design\\\\TWELVE_black_transparent.png\"\\); $b64 = [Convert]::ToBase64String\\($bytes\\); Write-Output \"data:image/png;base64,$b64\")",
+      "mcp__claude_ai_Supabase__list_projects",
+      "mcp__claude_ai_Supabase__deploy_edge_function",
+      "mcp__claude_ai_Supabase__execute_sql"
     ]
   }
 }
