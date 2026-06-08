@@ -117,11 +117,11 @@ html,body{font-family:'Montserrat',sans-serif;background:#0B1F3B;color:#F7F5F0;}
 .snd.active{background:#C8A24A;height:20px;border-radius:3px;}
 
 /* ══ PAGE 3: CONNECT ══ */
-.connect-page{min-height:100vh;background:#F7F5F0;}
+.connect-page{min-height:100vh;background:#F7F5F0;display:flex;flex-direction:column;}
 .connect-hero{background:#0B1F3B;padding:120px 48px 80px;text-align:center;}
 .connect-eyebrow{font-size:18px;letter-spacing:5px;text-transform:uppercase;color:#C8A24A;margin-bottom:16px;}
 .connect-title{font-family:'Cormorant Garamond',serif;font-size:clamp(48px,9vw,88px);font-weight:300;font-style:italic;color:#F7F5F0;}
-.connect-body{padding:56px 48px 80px;max-width:640px;margin:0 auto;}
+.connect-body{padding:56px 48px 80px;max-width:640px;margin:0 auto;display:flex;flex-direction:column;justify-content:center;flex:1;}
 .connect-btns{display:flex;flex-direction:column;gap:16px;margin-bottom:64px;}
 .cbtn{width:100%;padding:26px 28px;border:1.5px solid rgba(11,31,59,0.45);background:#fff;display:flex;align-items:center;justify-content:space-between;cursor:pointer;border-radius:3px;transition:all 0.2s;text-align:left;box-shadow:0 2px 12px rgba(11,31,59,0.06);}
 .cbtn:hover{border-color:#C8A24A;box-shadow:0 4px 20px rgba(200,162,74,0.15);}
@@ -233,12 +233,17 @@ html,body{font-family:'Montserrat',sans-serif;background:#0B1F3B;color:#F7F5F0;}
   .dishes-grid{grid-template-columns:1fr;}
   .section-heading{font-size:clamp(26px,7vw,42px);}
   .res-inner{padding:36px 20px 60px;}
-  .connect-body{padding:36px 20px 60px;}
+  .connect-hero{padding:80px 24px 48px;}
+  .connect-body{padding:32px 20px 40px;}
+  .connect-btns{margin-bottom:32px;}
   .map-section{padding:24px 20px;}
   .map-embed{width:100%;height:220px;}
   .map-actions{width:100%;flex-direction:column;gap:12px;}
   .map-action-btn{width:100%;}
+  .connect-credits{padding:28px 20px;margin:24px -20px -24px;}
+  .credits-text{font-size:15px;line-height:2;}
   .cbtn{padding:20px 18px;}
+  .cbtn-title{font-size:24px;}
   .form-grid{grid-template-columns:1fr;}
   .fg-full{grid-column:1;}
   .menu-row{flex-direction:column;align-items:flex-start;gap:4px;}
